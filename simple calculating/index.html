@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简易计算器</title>
+</head>
+
+<body>
+    <form action="#" method="POST" id="app">
+        <input type="text" v-model="n1" />
+        <select name="opt" id="opt" v-model="opt">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" v-model="n2" />
+        <input type="button" @click="calc" value="=">
+        <input type="text" v-model="result" />
+
+    </form>
+    <script src="vue.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

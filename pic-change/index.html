@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片切换</title>
+    <style>
+        #bk {
+            margin: 20px auto;
+            background: rgba(69, 69, 69, 0.5);
+            width: 288px;
+            padding: 20px 20px 0 20px;
+        }
+        
+        img {
+            width: 288px;
+            height: 180px;
+        }
+        
+        #btns {
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bk">
+        <img id="image" src="img/1.jpg" alt="just a pic!"><br/>
+        <div id="btns">
+            <input type="button" id="prev" value="上一张">
+            <input type="button" id="next" value="下一张">
+        </div>
+    </div>
+</body>
+<script>
+    let imgUrl = ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg"];
+    let prev = document.getElementById("prev"),
+        next = document.getElementById("next"),
+        images = document.getElementById("image"),
+        index = 0;
+    prev.onclick = function() {
+        index--;
+        if (index == -1) {
+            index = imgUrl.length - 1;
+        }
+        images.src = imgUrl[index];
+
+    };
+    next.onclick = function() {
+        index++;
+        if (index == imgUrl.length) {
+            index = 0;
+        }
+        images.src = imgUrl[index];
+    };
+</script>
+
+</html>

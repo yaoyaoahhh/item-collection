@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>原生js轮播图</title>
+</head>
+<body>
+    <div class="wrap"> 
+        <ul class="pic">
+            <li class="item active"><img src="image/1.jpg"></li>
+            <li class="item"><img src="image/2.jpg"></li>
+            <li class="item"><img src="image/3.jpg"></li>
+            <li class="item"><img src="image/4.jpg"></li>
+            <li class="item"><img src="image/5.jpg"></li>
+        </ul>
+        <button type="button" class="prebtn">&lt;</button>
+        <button type="button" class="nextbtn">&gt;</button>
+        <ul class="points">
+            <li class="point actives" data-index="0"></li>
+            <li class="point"data-index="1"></li>
+            <li class="point"data-index="2"></li>
+            <li class="point"data-index="3"></li>
+            <li class="point"data-index="4"></li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#container ul{
+    list-style: none;
+}
+ li {
+    display: inline-block;
+    height: 50px;
+    margin: 10px;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    font-size: 26px;
+    color: #fff;
+    background: red;
+}

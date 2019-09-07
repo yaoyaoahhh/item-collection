@@ -1,0 +1,770 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #999ba0;
+    width: 100%;
+    height: auto;
+}
+contianer {
+    font: normal normal normal 16px  Arial, Helvetica, sans-serif;
+    
+}
+#book-shift {
+    position: absolute;
+    left: 60px;
+    top: 13px;
+    width: 30px;
+    height: 31px;
+    background-repeat: no-repeat;
+    background: url(../image/1.书架.png);
+}
+header h2 {
+    font-weight: normal;
+    position: absolute;
+    left:40px;
+    top: -20px;
+    width: 72px;
+    height: 56px;
+    text-align: center;
+    color: #393a3a;
+}
+nav {
+    height: 60px;
+    font-size: 15px;
+}
+nav ul {
+    list-style: none;
+    display: inline;
+}
+nav ul li :hover {
+    color: #e74f4d;
+}
+nav ul li {
+    float: right;
+    padding: 20px 60px 0 0;
+    cursor: pointer;
+}
+nav ul a {
+    color: #999ba0;
+    text-decoration: none;
+}
+.login {
+    position: relative;
+    bottom:-22px;
+    background: url(../image/登入.png);
+    background-repeat: no-repeat;
+}
+.login p{
+    position: relative;
+    top: -37px;
+    left: 20px;
+    color: #e74f4d;
+}
+.move {
+    position: relative;
+    top: 33px;
+    left:50%;
+    width: 60px;
+    height: 2px;
+    background: #E53C3C;
+    transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    -moz-transition: width 0.4s ease-in-out;
+}
+header nav ul li:nth-child(1):hover~.move {
+    left:93%;
+}
+header nav ul li:nth-child(2):hover~.move {
+   
+    left:84.5%;
+}
+header nav ul li:nth-child(3):hover~.move {
+    left:75.5%;
+}
+header nav ul li:nth-child(4):hover~.move {
+    left:66.5%;
+}
+header nav ul li:nth-child(5):hover~.move {
+    left:58%;
+}
+.part1-bg {
+    position: absolute;
+    top: 57px;
+    width: 100%;
+    height: 853px;
+    background: url(../image/main1.png); 
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#apha {
+    width: 100%;
+    height: 853px;
+    background: rgba(100, 100, 100, 0.2);
+}
+.part1-p {
+    position: absolute;
+    top: 233px;
+    left: 117px;
+    margin: 0;
+    color: #fff;
+    font-size: 22px;
+}
+#part1-en {
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top :0px;
+}
+.part1-word {
+    line-height: 12px;
+}
+#submit1 {
+    position: relative;
+    top: 50px;
+    width: 330px;
+    height: 65px;
+    border: #e74f4d;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color:#fff;
+    background: #e74f4d;
+    cursor: pointer;
+}
+#part1-end {
+    position: absolute;
+    top: 800px;
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+    color: #767777;
+}
+#circle {
+    position: relative;
+    left: 146px;
+    top: 45px;
+    width: 41px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background: url(../image/1.圈圈.png);
+}
+#flag {
+    position: relative;
+    left: 477px;
+    top: 5px;
+    width: 35px;
+    height: 40px;
+    background: url(../image/1.红旗.png);
+}
+#flower {
+    position: relative;
+    left: 790px;
+    bottom: 35px;
+    width: 35px;
+    height: 39px;
+    background: url(../image/1.花花.png);
+}
+#box {
+    position: relative;
+    left: 1100px;
+    bottom: 75px;
+    width: 40px;
+    height: 40px;
+    background: url(../image/1.格子.png);
+}
+.word1 {
+    position: relative;
+    bottom: 50px;
+    width: 326px;
+}
+.line {
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background:#999ba0;
+}
+#part1-end line:nth-child(6){
+    left: 324px;
+    bottom: 80px;
+}
+.word2 {
+    position: relative;
+    left: 315px;
+    bottom: 93px;
+    width: 335px;
+}
+#part1-end line:nth-child(8){
+    left: 650px;
+    bottom: 80px;
+}
+.word3 {
+    position: relative;
+    left: 640px;
+    bottom: 137px;
+    width: 335px;
+}
+#part1-end line:nth-child(10){
+    left: 950px;
+    bottom: 80px;
+}
+.word4 {
+    position: relative;
+    left: 950px;
+    bottom: 180px;
+    width: 335px;
+}
+#part2 {
+    position: relative;
+    top:980px;
+    width: 100%;
+    height: 362px;
+    background: #ededec;
+    color: #a0a0a0;
+    font-size: 50px;
+}
+#part2 p {
+    position: relative;
+    text-align: center;
+    top: 20%;
+}
+#bookshift {
+    position: relative;
+    left: 50%;
+    top: 25%;
+    width: 93px;
+    height: 93px;
+    background: url(../image/书架2.png);
+    background-size: 93px 93px;
+}
+#part3 {
+    position: relative;
+    top: 955px;
+    width: 100%;
+    height: 343px;
+    background: url(../image/地图.png); 
+    background-size:100% ;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+}
+#part3 p:nth-child(1) {
+    position: relative;
+    top: 13%;
+    font-size: 25px;
+}
+#part3 line:nth-child(2) {
+    position: absolute;
+    top: 26%;
+    left:48%;
+    width: 40px;
+    height: 3px;
+    background: #fff;
+}
+#part3 p:nth-child(3) {
+    position: relative;
+    top: 15%;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 13px;
+}
+#search input {
+    position: absolute;
+    top: 50%;
+    left: 76%;
+    width: 238px;
+    height: 35px;
+    background: #E53C3C;
+    font-size: 16px;
+    letter-spacing: 30px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+} 
+select {    
+    position: absolute;    
+    top: 50%;
+    color:#a0a0a0;
+    width: 238px;
+    height: 35px;
+    cursor: pointer;
+}
+option {
+    color: #7f7f81;
+    background: #e3e3e5;
+
+}
+#select1 {
+    left: 10%;
+}
+#select2 {
+    left: 32%;
+}
+#select3 {
+    left: 54%;
+}
+#part4 {
+    position: absolute;
+    top: 1745px;
+    width: 100%;
+    height: 608px;
+    background: #f8f8f8;
+    font-size: 12px;
+}
+#part4 :nth-child(1){
+    position: absolute;
+    top: 101px;
+    left: 180px;
+}
+#part4 :nth-child(2){
+    position: absolute;
+    top: 156px;
+    left: 436px;
+}
+#part4 :nth-child(3){
+    position: absolute;
+    top: 101px;
+    left: 691px;
+}
+#part4 :nth-child(4){
+    position: absolute;
+    top: 101px; 
+    left: 947px;
+}
+#part4 :nth-child(5){
+    position: absolute;
+    top: 80px; 
+    left: 445px;
+    color:#303030;
+    font-size: 20px;
+    letter-spacing: 40px;
+}
+#part4 :nth-child(6) {
+    position: absolute;
+    top: 120px;
+    left: 500px;
+}
+#part4 :nth-child(7) {
+    position: absolute;
+    top: 440px;
+    left: 236px;
+    color:#303030;
+    font-size: 15px;
+}
+#part4 :nth-child(8){
+    position: absolute;
+    top: 470px;
+    left: 230px;
+}
+#part4 :nth-child(9) {
+    position: absolute;
+    top: 440px;
+    left: 760px;
+    color:#303030;
+    font-size: 15px;
+}
+#part4 :nth-child(10){
+    position: absolute;
+    top: 470px;
+    left: 740px;
+}
+#part4 :nth-child(11) {
+    position: absolute;
+    top: 440px;
+    left: 1010px;
+    color:#303030;
+    font-size: 15px;
+}
+#part4 :nth-child(12){
+    position: absolute;
+    top: 470px;
+    left: 1000px;
+}
+#part5 {
+    position: absolute;
+    top: 2350px;
+    width: 100%;
+    height: 566px;
+    background: url(../image/second.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.part5-1 {
+    position: absolute;
+    top: 70px;
+    left: 353px;
+    font-size: 50px;
+}
+.part5-2 {
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    font-size: 130px;
+}
+.part5-3 {
+    position: absolute;
+    top: 300px;
+    left: 360px;
+}
+.part5-4 {
+    position: absolute;
+    top: 335px;
+    left: 370px;
+}
+.part5-5 {
+    position: absolute;
+    top: 165px;
+    right: 200px;
+    font-size: 20px;
+    font-weight: 550;
+    color: #393a3a;
+    margin-bottom: 30px;
+}
+.part5-5 span {
+    color: #E53C3C; 
+}
+#part5 blockquote {
+    position: absolute;
+    top: 220px;
+    right: 30px;
+    width: 360px;
+    height: 128px;
+    line-height: 35px;
+    font-size: 12px;
+    color:#a0a0a0;
+}
+#more_detail input {
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    width: 105px;
+    height: 32px;
+    color: #E53C3C;
+    border: #E53C3C 1px solid;
+    background: #fff;
+    cursor: pointer;
+}
+#part5 div circle {
+    position: absolute;
+    top: 460px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    
+}
+#part5 div circle:nth-child(1){
+    position: absolute;
+    right: 275px;
+    border: solid 1px #767777;
+    background: #767777;
+}
+#part5 div circle:nth-child(2){
+    position: absolute;
+    right: 245px;
+    border: solid 1px #767777;
+}
+#part5 div circle:nth-child(3){
+    position: absolute;
+    right: 215px;
+    border: solid 1px #767777;
+}
+#part5 triangle {
+    position: absolute;
+    top: 268px;
+    left: 820px;
+    width: 0px;
+    height: 0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 30px solid #fff;
+}
+#part6 {
+    position: absolute;
+    top: 2915px;
+    width: 100%;
+    height: 520px;
+    background: #fff;
+    text-align: center;
+}
+.part6_word {
+    position: absolute;
+    margin: 0;
+    width: 425px;
+    height: 100%;
+    background: #E53C3C;
+    color: #fff;
+    font-size: 20px;
+}
+.part6_word span {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+#part6 line {
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+} 
+.part6_word1 {
+    position: absolute;
+    margin: 0;
+    width: 432px;
+    height: 100%;
+    left: 31%;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+}
+.part6_word1 span {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+#part6 #linex{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 30px;
+    height: 2px;
+    background: #000;
+}
+#more1 {
+    position: absolute;
+    top: 55%;
+    left: 9%;
+    width: 170px;
+    height: 46px;
+    cursor: pointer;
+    background: #E53C3C;
+    color: #fff;
+    border: 1px #fff solid;
+}
+ #more2 {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    width: 170px;
+    height: 46px;
+    cursor: pointer;
+    background: #fff;
+    color: #E53C3C;
+    border: 1px #E53C3C solid;
+}
+#women {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 500px;
+    height: 520px;
+    background: url(../image/女人.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+#women p{
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 500px;
+    height: 520px;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+#part6 #women triangle {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom:  15px solid transparent;
+    border-left: 30px solid #fff;
+}
+#part7 {
+    position: absolute;
+    top: 3430px;
+    width: 100%;
+    height: 752px;
+    background: #fff;
+}
+.center_word {
+    position: relative;
+    top: 18%;
+    text-align: center;
+    font-size: 14px;
+}
+.center_word span{ 
+    position: relative;
+    bottom: 30px;
+    font-size: 25px;
+    color: #303030;
+}
+#part7 line:nth-child(2) {
+    position: absolute;
+    top: 22%;
+    left: 49%;
+    width: 30px;
+    height: 2px;
+    background: #E53C3C;
+}
+.part7_1_1 {
+    position: absolute;
+    top: 356px;
+    left: 150px;
+    width: 292px;
+    font-size: 13px;
+}
+.part7_1_1 span {
+    position: absolute;
+    bottom: 60px;
+    font-size: 16px;
+    color: #000;
+}
+#part7 div span:nth-child(2) {
+    position: absolute;
+    top: 410px;
+    left: 380px;
+}
+.part7_1_2 {
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    width: 292px;
+    font-size: 13px;
+}
+.part7_1_2 span {
+    position: absolute;
+    bottom: 60px;
+    font-size: 16px;
+    color: #000;
+}
+#part7 div span:nth-child(4) {
+    position: absolute;
+    top: 550px;
+    left: 380px;
+}
+.part7_1_3 {
+    position: absolute;
+    top: 650px;
+    left: 150px;
+    width: 292px;
+    font-size: 13px;
+}
+.part7_1_3 span {
+    position: absolute;
+    bottom: 60px;
+    font-size: 16px;
+    color: #000;
+}
+#part7 div span:nth-child(6) {
+    position: absolute;
+    top: 620px;
+    left: 380px;
+}
+
+form .name,.age,.add,.number,.dream_life, .tijiao {
+    background: #ededee;
+    color: #303030;
+    border: 0;
+}
+form .name,.age,.add,.number {
+    width: 310px;
+    height: 40px;
+}
+form .name {
+    position: absolute;
+    top: 320px;
+    right: 480px;
+}
+form .age {
+    position: absolute;
+    top: 320px;
+    right: 100px;
+}
+form .number {
+    position: absolute;
+    top: 375px;
+    right: 480px;
+}
+form .add {
+    position: absolute;
+    top: 375px;
+    right: 100px;
+}
+form .dream_life {
+    position: absolute;
+    top: 435px;
+    right: 96px;
+    height: 120px;
+    width: 692px;
+}
+form .tijiao {
+    position: absolute;
+    top: 600px;
+    right: 100px;
+    width: 692px;
+    height: 42px;
+}
+footer {
+    position: absolute;
+    top: 640%;
+    width: 100%;
+    height: 420px;
+    background: #32353e;
+    color: #fff;
+    text-align: center;
+}
+footer p:nth-child(1){
+    margin-top: 90px;
+    font-size: 23px;
+} 
+footer form input:nth-child(1) {
+    width: 430px;
+    height: 40px;
+    color: #7f7f81
+}
+footer form input:nth-child(2) {
+    position: relative;
+    left: -6px;
+    top:2px;
+    width: 80px;
+    height: 46px;
+    border:none;
+    background: #6f7178;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.icons {
+    position: relative;
+    top: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: 10px;
+}
+footer div:nth-last-child(1) {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 60px;
+    background: #303039;
+}
+ footer div .newworld {
+    position: relative;
+    bottom: 70px;
+    float: left;
+    left: 100px;
+    font-size: 14px;
+}
+footer div a {
+    position: relative;
+    top: 20px;
+    right: 30px;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+}

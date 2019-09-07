@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #5d5d5d;
+    font-family: Microsoft YaHei ;
+    font-size: 12px ;
+    color: #767777;
+  
+}
+.mainbg {
+    position: absolute; 
+    width: 980px;
+    left:180px;
+    padding-top: 0px; 
+    border: 1px solid black;
+    height: 1386px;
+   
+    background: #fff;
+}
+.redpart {
+    position: absolute;
+    left: 45px;
+    width: 110px;
+    height: 81px;
+    background: #d55d5c;
+    color: #fff;
+    font-family: SimHei;
+    font-size: 12px;
+}
+.redpart p {
+    position: relative;
+    top: 63px;
+    padding-left: 5px;
+}
+.line1 {
+    position: absolute;
+    width: 892px;
+    height: 2px;
+    top: 81px;
+    left: 45px;
+    background: #928e8c;
+}
+#data {
+    color: #e27171;
+    font-family: SimHei;
+    font-size: 12px;
+    position: absolute;
+    right: 46px;
+    top: 64px;
+} 
+.part1img1 {
+    position: relative;
+    top:120px;
+    left: 45px;
+    width: 641px;
+    height: 301px;
+    background: url(http://img3.xiazaizhijia.com/walls/20150417/mid_84422024ff063d3.jpg);  
+    display: inline-block;
+}
+.img2 {
+    width: 191px;
+    height: 301px;
+    background: rgba(75,168,106,0.253);
+}
+.img3 {
+    position: absolute;
+    left: 450px;
+    top: 0;
+    width: 191px;
+    height: 301px;
+    background: rgba(245, 88, 180, 0.253);
+}
+.part2 {
+    position: absolute;
+    top: 99px;
+    left:738px;
+    text-transform : capitalize;
+}
+.part2-2 {
+    margin-top: 20px;
+    padding-bottom: 3px;
+    border-bottom: 1px gray solid;
+    width: 135px;
+}
+hr {
+    width: 70px;
+}
+.part2-22 {
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+}
+.part3 {
+    position: absolute;
+    top: 463px;
+    margin-right: 30px;
+    left:  45px;
+}
+#continent {
+    position: relative;
+    color: #231815;
+    font-family: Microsoft YaHei;
+    opacity: 70%;
+    line-height: 20px;
+}
+#continent-1 {
+    width: 229px;
+}
+#what {
+    font: 16px Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #57b65d;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+#continent-2 {
+    width: 205px;
+    position: relative;
+    left: 260px;
+    bottom: 123px;
+}
+#when {
+    font: 16px Arial, Helvetica, sans-serif ;
+    color: #d29945;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+#continent-3 {
+    width: 135px;
+    position: relative;
+    left: 496px;
+    bottom: 263px;
+    text-align: left;
+}
+#how {
+    font: 16px Arial, Helvetica, sans-serif ;
+    color: #cc7680;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+#continent-4 {   
+    position: relative;
+    left: 496px;
+    bottom: 263px;
+    font: 12px Microsoft YaHei;
+    color:#cd4a48;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+#part4 {
+    position: absolute;
+    top: 681px;
+    left: 45px;
+}
+#part4-1 {
+    font-family: SimHei;
+    font-weight: 700;
+    display: inline;
+    line-height: 40px;
+}
+
+line {
+    position: absolute;
+    width: 415px;
+    height: 2px;
+    margin-top: 8px;
+    background:  #11456b;
+}
+#part4-2 {
+   margin-top: 35px;
+   width: 414px;
+   text-align: left;
+}
+
+  
+span {
+    font-size: 70px;
+	color: #f5e327;
+    float: left;
+    font-family: Mircosoft YaHei;
+    padding: 20px 10px 30px 0;
+}
+#part4-2 p {
+    font-family: "宋体";
+    line-height: 18px;
+}
+.part4-22 {
+    text-indent: 2em;
+}
+#image4 {
+    float: right;
+    margin: 15px;
+    width: 166px;
+    height: 288px;
+}
+#part5 {
+    position: absolute;
+    top: 655px;
+    left: 460px;
+    margin: 20px;
+}
+#shade {
+    position: relative;
+    bottom: 63px;
+    width: 458px;
+    height: 61px;
+    background: rgba(36, 35, 35, 0.553);
+}
+#line2 {
+    left:38px;
+    width: 3px;
+    height: 44px;
+    background: #72b16a;
+}
+#shade p{
+    position: relative;
+    left:53px;
+    top: 10px;
+}
+#shade i {
+    font-size: 12px;
+    color: #76b12a;
+    letter-spacing: 140%;
+}
+#part5-1 {
+    position: relative;
+    bottom:33px;
+    width: 459px;
+    height: 318px;
+    background: #eeeed6;
+}
+.part5-11 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    line-height: 40px;
+    font-size: 16px;
+}
+triangle {
+    height:0px;
+    width:0px;
+    border-left:4px solid transparent;
+    border-right:4px solid transparent ;
+    border-bottom:8px solid #0f4762 ;
+}
+.triangle1 {
+    position: relative;
+    bottom: 10px;
+}
+
+#rectangle {
+    position: absolute;
+    top:138px;  
+    left:-30px;
+    height: 160px;
+    width: 260px;
+    background: #d55d5c;
+}
+#rectangle span {
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+#line3{
+    position: absolute;
+    top:30px;
+    left:84px;
+    width: 2px;
+    height: 86px;
+    background: #fff;
+}
+.en-number {
+    position: relative;
+    top:35px;
+    left:10px;
+    font-size: 21px;
+    font-family: SimHei;
+    color: #fff;
+   
+    
+}
+.en-number1 {
+    position: relative;
+    top:18px;
+    left:10px;
+    font-size: 21px;
+    font-family: SimHei;
+    color: #fff;
+}
+.en-words{
+    position: relative;
+    left:15px;
+    font-size: 12px;
+    color: #fff;
+    font-family: SimHei;
+}
+.en-words1{
+    position: relative;
+    left:95px;
+    bottom:28px;
+    font-size: 12px;
+    color: #fff;
+    font-family: SimHei;
+}
+#hellow{
+    position: relative;
+    left:200px;
+    height: 117px;
+    font-family: SimHei;
+}
+#hellow span{
+   
+    color:#d55d5c;
+    font-size: 72px;
+}
+.span1 {
+    float: left;
+}
+#hellow p{
+    font-style: italic;
+    font-size: 14px;
+    color:#5a5b5b;
+    line-height: 16px;
+    margin:0px;
+}
+.hellow1 {
+    position: relative;
+    left:4px;
+    top:20px;
+}
+.hello1 {
+    position: relative;
+    top:20px;
+    left:-38px;
+
+}
+.span2 {
+    position: relative;
+    right: 196px;
+    float: right;
+}
+#line4 {
+    position: absolute;
+    height: 1px;
+    left:45px;
+    width: 892px;
+    bottom:50px;
+    background: #938e8c;
+}
+footer p {
+    position: absolute; 
+    right:45px;
+    bottom:35px;
+    color:#e27171;
+    font-family: SimHei;
+  
+}
