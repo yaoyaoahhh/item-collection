@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="/studentAdd" role="button" class="btn btn-primary">添加学生</a>
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <td>学号</td>
+                    <td>姓名</td>
+                    <td>年龄</td>
+                    <td>性别</td>
+                    <td>操作</td>
+                </tr>
+            </thead>
+            <tbody>
+                {{each datas}}
+                <tr>
+                    <td>{{$value.id}}</td>
+                    <td>{{$value.name}}</td>
+                    <td>{{$value.age}}</td>
+                    <td>{{$value.gender}}</td>
+                    <td>
+                        <a href="/studentEdit?id={{$value.id}}">编辑</a>
+                        <a href="/studentDel?id={{$value.id}}">删除</a>
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

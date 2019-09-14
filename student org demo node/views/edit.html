@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>添加学生</title>
+    <link rel="stylesheet" href="/public/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>更新学生<small>编辑学生信息</small></h1>
+            <hr>
+        </div>
+        <form action="/studentEdit" class="form" method="POST">
+            <input type="hidden" name="id" value={{student.id}}>
+            <div class="form-group">
+                <label for="name">姓名：  </label>
+                <input id="name" type="text" class="form-control" name="name" value={{student.name}}>
+
+            </div>
+            <div class="form-group">
+                <label for="age">年龄：</label>
+                <input id="age" type="text" class="form-control" name="age" value={{student.age}}>
+
+            </div>
+            <div class="form-group">
+                <label>性别：</label>
+                <label class="col-md-3"> <input type="radio" class="radio-inline col-md-3" name="gender" value=0  />男</label>
+                <label class="col-md-3"> <input type="radio" class="radio-inline col-md-3" name="gender" value=1 />女</label>
+            </div>
+            <button class="btn btn-primary form-control">添加</button>
+        </form>
+    </div>
+</body>
+
+</html>
